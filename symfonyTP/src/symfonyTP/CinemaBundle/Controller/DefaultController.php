@@ -14,4 +14,20 @@ class DefaultController extends Controller
     {
         return $this->render('symfonyTPCinemaBundle:Default:index.html.twig');
     }
+
+    /**
+     * @Route("/film")
+     */
+    public function listAction()
+    {
+        return $this->render('symfonyTPCinemaBundle:film:list.html.twig');
+    }
+
+    /**
+     * @Route("/film/{id}", requirements={"id": "\d+"})
+     */
+    public function showAction($id)
+    {
+        return $this->render('symfonyTPCinemaBundle:film:show.html.twig');
+    }
 }
