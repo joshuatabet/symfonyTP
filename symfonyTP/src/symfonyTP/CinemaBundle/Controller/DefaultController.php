@@ -21,7 +21,14 @@ class DefaultController extends Controller
     public function listAction()
     {
         $films = $this->getDoctrine()->getRepository('symfonyTPCinemaBundle:Film')->findAll();
-        return $this->render('symfonyTPCinemaBundle:Film:list.html.twig');
+
+        $titre_de_la_page = 'films de la bibliothèques';
+
+
+        return $this->render(
+            'symfonyTPCinemaBundle:Film:list.html.twig',
+            ['films' => $films, 'titre' => $titre_de_la_page]
+        );
     }
 
     /**
@@ -29,6 +36,11 @@ class DefaultController extends Controller
      */
     public function showAction($id)
     {
-        return $this->render('symfonyTPCinemaBundle:Film:show.html.twig');
+        $film = $this->getDoctrine()->getRepository('symfonyTPCinemaBundle:Film')->find($id);
+
+        return $this->render(
+            'symfonyTPCinemaBundle:Film:show.html.twig',
+            ['film' => $film]
+        );
     }
 }
