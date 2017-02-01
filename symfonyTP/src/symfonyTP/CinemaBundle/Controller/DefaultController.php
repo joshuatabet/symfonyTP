@@ -16,11 +16,12 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/film")
+     * @Route("/films")
      */
     public function listAction()
     {
-        return $this->render('symfonyTPCinemaBundle:film:list.html.twig');
+        $films = $this->getDoctrine()->getRepository('symfonyTPCinemaBundle:Film')->findAll();
+        return $this->render('symfonyTPCinemaBundle:Film:list.html.twig');
     }
 
     /**
@@ -28,6 +29,6 @@ class DefaultController extends Controller
      */
     public function showAction($id)
     {
-        return $this->render('symfonyTPCinemaBundle:film:show.html.twig');
+        return $this->render('symfonyTPCinemaBundle:Film:show.html.twig');
     }
 }
