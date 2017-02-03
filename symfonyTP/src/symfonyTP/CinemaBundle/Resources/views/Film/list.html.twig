@@ -3,10 +3,10 @@
 <ul class="liste">
     {% for film in films %}
         <li>
-            <h2>{{ film.titre }}</h2>
-            <span>{{ film.realisateur }}</span>
-            <span>{{ film.synopsis }}</span>
-            <span>{{ film.datedesortie }}</span>
+            <h2><a href="{{ path('page_films', {'id': film.id}) }}">{{ film.titre }}</a></h2>
+            <strong> <span>{{ film.realisateur }}</span></strong>
+            <br><span>{{ film.synopsis }}</span></br>
+           <br> <span>{{ film.datedesortie }}</span></br>
         </li>
 
     {% endfor %}

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9df43e-9185-4d76-bd73-9d72631c2447" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Entity/Film.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Repository/filmRepository.php" afterPath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Repository/FilmRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/show.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_cinema/.idea/workspace.xml" afterPath="$PROJECT_DIR$/html_cinema/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_cinema/cinema-films.html" afterPath="$PROJECT_DIR$/html_cinema/cinema-films.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig" afterPath="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig" />
     </list>
     <ignored path="symfonyTP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="261">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="e#53#110#0#PHP" expanded="true" />
               </folding>
@@ -53,8 +53,18 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -98,11 +108,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Repository/filmRepository.php" />
         <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Repository/FilmRepository.php" />
         <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Entity/Film.php" />
+        <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/show.html.twig" />
         <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig" />
+        <option value="$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -477,12 +488,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485942091406</updated>
-      <workItem from="1485942093773" duration="5690000" />
+      <workItem from="1485942093773" duration="7802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5690000" />
+    <option name="totallyTimeSpent" value="7802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -574,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="e#53#110#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -592,10 +593,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#53#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfonyTP/src/symfonyTP/CinemaBundle/Resources/views/Film/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
